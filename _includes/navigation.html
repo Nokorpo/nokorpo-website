@@ -1,0 +1,8 @@
+<header>
+    <a href="/" id="home"><img src="/assets/images/header-icon.svg" alt="Nokorpo" width="328px" height="79px"></a>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url==item.link %}class="navigation-item current" {% endif %} class="navigation-item">
+        {{ item.name }}
+    </a>
+    {% endfor %}
+</header>
