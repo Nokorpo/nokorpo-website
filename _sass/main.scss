@@ -3,7 +3,6 @@
     src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
-
 body {
     font-family: 'montserrat';
     background-color: #181b22;
@@ -16,7 +15,6 @@ body > * {
 
 h1, h2, h3, h4, h5, h6 {
     color: white;
-    font-family: 'montserrat';
 }
 
 a {
@@ -84,7 +82,7 @@ header > .current {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
 }
 
 #gallery > a{
@@ -200,17 +198,18 @@ section>h1 {
 }
 
 /* Mobile */
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     header {
         flex-direction: column;
     }
-    header > h1 {
-        font-size: 13vw;
-        letter-spacing: 4vw;
-    }
-    header > .header-nav{
-        flex-direction: column;
-        text-align: center;
+    header > * {
+        margin-right: 0px;
+    }    
+    #gallery  > a {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .img-container > img {
         width: 50%;
