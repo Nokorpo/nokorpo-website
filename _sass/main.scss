@@ -88,6 +88,9 @@ header > .current {
 #gallery > a{
     width: 350px;
     height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
     border: 5px solid black;
     border-bottom: 15px solid black;
     text-align: center;
@@ -97,6 +100,10 @@ header > .current {
     transition: all .2s;
 }
 
+.gallery-small > *{
+    width: 252px !important;
+    height: 200px !important;
+}
 #gallery > a:hover{
     border: 5px solid #96356d;
 }
@@ -196,6 +203,22 @@ section>h1 {
     vertical-align: bottom;
     flex-grow: 1;
 }
+/* about-us */
+.columns {
+    display: flex;
+    width: 100%;
+}
+.columns > div{
+    width: 0;
+    flex: 1 1 0;
+}
+.columns > div:not(:first-child):not(:last-child) {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.columns > div > h2{
+    text-align: center;
+}
 
 /* Mobile */
 @media (max-width: 750px) {
@@ -207,14 +230,23 @@ section>h1 {
     }    
     #gallery  > a {
         width: 100%;
-        margin-bottom: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .img-container > img {
         width: 50%;
     }
     .blogPosts>li>div {
         flex-direction: column;
+    }
+    .columns {
+        flex-direction: column;
+    }
+    .columns > div {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .columns > div:not(:first-child):not(:last-child) {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
