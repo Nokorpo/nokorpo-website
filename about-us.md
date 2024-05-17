@@ -9,6 +9,9 @@ We are a team of game developers and open source enthusiasts from Spain. We beli
 
 Video games are fun, and so should be making them. We work fast and with passion, but we also encourage good communication, open development, and prioritizing our emotional and mental health ☀️
 
+Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-media.email.href }})_
+
+
 <div class="columns">
     <div>
         <h2><a href="https://linktr.ee/alicia.redmarr">Alicia "Ali" Redmarr</a></h2>
@@ -30,9 +33,12 @@ Video games are fun, and so should be making them. We work fast and with passion
 ## Our projects
 
 <div id="gallery" class="gallery-small">
-    <a style='background-image: url("/assets/images/index/bat.svg");' href="/games/michiball.html"></a>
+    <a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
+        <h2 style="color: white;text-shadow: 2px 2px #1e454e;font-size: 30px;">Our upcoming game</h2>
+    </a>
     <a style='background-image: url("/assets/images/games/infinigrass.png");' href="https://github.com/antimundo/infinigrass"></a>
     <a style='background-image: url("/assets/images/games/ratandfurrius.png");' href="https://github.com/antimundo/rat-and-furrius"></a>
     <a style='background-image: url("/assets/images/games/lafaldadelamontana.png");' href="https://github.com/Edearth/falda-montana"></a>
     <a style='background-image: url("/assets/images/games/libreaim.png");' href="https://github.com/antimundo/libre-aim"></a>
+    <a style='background-image: url("/assets/images/games/mastodon-godot-viewer.png");' href="https://github.com/Nokorpo/mastodon-viewer-godot"></a>
 </div>

@@ -4,7 +4,7 @@ title: Services
 ---
 
 <div style="display: flex;justify-content: center;">
-<img src="/assets/images/services/services.svg">
+<img src="/assets/images/services/services.png" alt="Services, need help with Godot?">
 </div>
 
 So you are making a Godot project. That's great!
