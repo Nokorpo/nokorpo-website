@@ -4,6 +4,12 @@ twitter:
   title: 'Twitter'
   icon: 'twitter-logo.svg'
 
+mastodon:
+  id: '@nokorpo@gamedev.lgbt'
+  href: 'https://gamedev.lgbt/@nokorpo'
+  title: 'Mastodon'
+  icon: 'mastodon-logo.svg'
+
 email:
   id: 'contact@nokorpo.com'
   href: 'contact@nokorpo.com'
