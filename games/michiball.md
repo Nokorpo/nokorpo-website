@@ -1,8 +1,6 @@
 ---
 layout: default
 teaser: /assets/images/games/michiball/4-players.png
-categories: games
-permalink: /:categories/:title:output_ext
 ---
 
 <style>
@@ -45,6 +43,13 @@ __Michiball__ is a party local multiplayer video game, about a fictional sport t
 - Price: To be announced.
 - System requirements: To be announced (but will probably be pretty low).
 - Game engine: Godot 4.
+
+## Create mods
+
+Michiball has mod support, learn about it, and about how to create your custom mods [here](/games/michiball/mods)!
+
+[![A screenshot of a character in a 3D editor](/assets/images/games/michiball/mods.jpg)](/games/michiball/mods)
+
 
 ## Keep in touch!
 
