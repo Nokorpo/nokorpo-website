@@ -34,7 +34,7 @@ Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-me
 
 <div id="gallery" class="gallery-small">
     <a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
-        <h2 style="color: white;text-shadow: 2px 2px #1e454e;font-size: 30px;">Our upcoming game</h2>
+            <img width="200px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 64px;" alt="michiball">
     </a>
     <a style='background-image: url("/assets/images/games/infinigrass.png");' href="https://github.com/antimundo/infinigrass"></a>
     <a style='background-image: url("/assets/images/games/ratandfurrius.png");' href="https://github.com/antimundo/rat-and-furrius"></a>

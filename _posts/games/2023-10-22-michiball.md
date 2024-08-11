@@ -1,13 +1,29 @@
 ---
 layout: default
-teaser: /assets/images/games/michiball/rabbit.png
+teaser: /assets/images/games/michiball/4-players.png
 categories: games
 permalink: /:categories/:title:output_ext
 ---
 
-## {{ page.title }}
+<style>
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        background-image: url("/assets/images/games/michiball/banner.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+</style>
 
-Michiball is our upcoming local multiplayer game about a fictional sport that mixes baseball and dodgeball. Push your friends out of the ring to win!
+<div class="banner">
+    <img src="/assets/images/games/michiball/michiball-logo.png" height="200px" width="auto" alt="Michiball logo">
+</div>
+
+__Michiball__ is a party local multiplayer video game, about a fictional sport that mixes baseball and dodgeball. Push your friends out of the ring, and be the last one standing to win! Discover new arenas, unique game modes, and play as cute pets.
 
 
 <div class="columns">
@@ -25,15 +41,13 @@ Michiball is our upcoming local multiplayer game about a fictional sport that mi
     </div>
 </div>
 
-
 - Release date: To be announced.
 - Price: To be announced.
 - System requirements: To be announced (but will probably be pretty low).
 - Game engine: Godot 4.
 
-## I want to know more about this game
+## Keep in touch!
 
-Follow us on [Twitter]({{ site.data.social-media.twitter.href }}) to keep in touch! 
+Follow us on Twitter [@nokorpo@twitter.com]({{ site.data.social-media.twitter.href }}) or Mastodon [@nokorpo@gamedev.lgbt]({{ site.data.social-media.mastodon.href }}) to hear news about the game!
 
-![Teaser]({{ page.teaser }})
-
+<iframe src="https://gamedev.lgbt/@nokorpo/112571373706453666/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://gamedev.lgbt/embed.js" async="async"></script>
