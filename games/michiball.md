@@ -21,7 +21,7 @@ teaser: /assets/images/games/michiball/4-players.png
     <img src="/assets/images/games/michiball/michiball-logo.png" height="200px" width="auto" alt="Michiball logo">
 </div>
 
-__Michiball__ is a party local multiplayer video game, about a fictional sport that mixes baseball and dodgeball. Push your friends out of the ring, and be the last one standing to win! Discover new arenas, unique game modes, and play as cute pets.
+__Michiball__ is a local multiplayer party video game, about a fictional sport that mixes baseball and dodgeball. Push your friends out of the ring, and be the last one standing to win! Discover new arenas, unique game modes, and play as cute pets.
 
 
 <div class="columns">
