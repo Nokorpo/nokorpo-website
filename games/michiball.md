@@ -1,6 +1,6 @@
 ---
 layout: default
-teaser: /assets/images/games/michiball/4-players.png
+teaser: /assets/images/games/michiball/store_capsule_main.jpg
 ---
 
 <style>

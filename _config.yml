@@ -4,3 +4,5 @@ baseurl:
 collections:
   my_categories:
     output: true
+  kramdown:
+      auto_ids: true
