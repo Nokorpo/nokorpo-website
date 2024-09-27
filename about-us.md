@@ -7,7 +7,7 @@ title: About us
 
 We are a team of game developers and open source enthusiasts from Spain. We believe that we are entering the rise of the open source era in game development, and we want to keep pushing the limits of what community and open source can do!
 
-Video games are fun, and so should be making them. We work fast and with passion, but we also encourage good communication, open development, and prioritizing our emotional and mental health ☀️
+We make our own games, and we also help others create theirs. We work fast and with passion, but we also encourage good communication and open development ☀️
 
 Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-media.email.href }})_
 

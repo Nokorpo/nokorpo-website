@@ -52,7 +52,6 @@ title: Services
 <div style="text-align: center;">
     <h2 style="font-size:42px;">Services</h2>
     <p>Need help with your project?</p>
-    <img src="/assets/images/services/panas.png" height="190px"/>
 </div>
 
 <div class="services-container">
@@ -60,9 +59,9 @@ title: Services
         <h2><a href="#godot">Godot</a></h2>
         <div>
             <div>
-                <p>Godot is a wonderful engine, we can help you with basically anything you need with your Godot project: fixing bugs, fixing optimization problems, implementing custom tools and systems, and more!</p>
+                <p>Godot is a wonderful engine. We can help you with basically anything you need with your Godot project: fixing bugs, fixing optimization problems, implementing custom tools and systems, and more!</p>
             </div>
-            <img src="/assets/images/services/godot.png" height="256px"/>
+            <img src="/assets/images/services/godot.png" height="256px" alt="A rabbit and a Godot robot shaking hands"/>
         </div>
     </div>
 </div>
@@ -74,7 +73,7 @@ title: Services
                 <p>We can publish your game to Steam and integrate Steam services.</p>
                 <p>Achievements, cloud saves, Steam Deck compatibility, and more!</p>
             </div>
-            <img src="/assets/images/services/steam.png" height="256px"/>
+            <img src="/assets/images/services/steam.png" height="256px" alt="A hamster holding a trophy, there is also a Steam logo and a SteamDeck"/>
         </div>
     </div>
     <div class="service-card">
@@ -83,7 +82,7 @@ title: Services
             <div>
                 <p>Do you want to automate your build or release process? Do you know the benefits of automated testing? Let us help you kickstart a Continuous Integration environment and find out!</p>
             </div>
-            <img src="/assets/images/services/servers.png" height="256px"/>
+            <img src="/assets/images/services/servers.png" height="256px" alt="A cat looking at a server rack"/>
         </div>
     </div>
     <div class="service-card">
@@ -92,7 +91,7 @@ title: Services
             <div>
                 <p>If you have a project that needs testing, we can design a test plan for it or perform manual exploratory or performance testing. But contact us during development and we will advise you on the best practices to ensure quality is maintained during development.</p>
             </div>
-            <img src="/assets/images/services/testing.png" height="256px"/>
+            <img src="/assets/images/services/testing.png" height="256px" alt="A rabbit with a helmet checking a list of checkboxes"/>
         </div>
     </div>
 </div>
@@ -101,9 +100,9 @@ title: Services
         <h2><a href="#vr-ar">VR and AR</a></h2>
         <div>
             <div>
-                <p>We do VR and AR projects!</p>
+                <p>Let us take your project to the virtual dimension!</p>
             </div>
-            <img src="/assets/images/services/vr.png" height="256px"/>
+            <img src="/assets/images/services/vr.png" height="256px" alt="A dog wearing some VR glasses"/>
         </div>
     </div>
     <div class="service-card">
@@ -112,7 +111,7 @@ title: Services
             <div>
                 <p>We can port your project to a different platform: PC, mobile, web, or console.</p>
             </div>
-            <img src="/assets/images/services/platforms.png" height="256px"/>
+            <img src="/assets/images/services/platforms.png" height="256px" alt="A hamster with some consoles and controllers"/>
         </div>
     </div>
 </div>
@@ -121,18 +120,18 @@ title: Services
         <h2><a href="#unity">Unity</a></h2>
         <div>
             <div>
-                <p>Unity is no stranger to us! from mobile games, VR and AR, web games, we've been using Unity for years...</p>
+                <p>Unity is no stranger to us! From mobile games, VR and AR, web games, we've been using Unity for years...</p>
             </div>
-            <img src="/assets/images/services/unity.png" height="256px"/>
+            <img src="/assets/images/services/unity.png" height="256px" alt="A cat holding a sign with the Unity logo"/>
         </div>
     </div>
     <div class="service-card">
         <h2><a href="#art">Video game art</a></h2>
         <div>
             <div>
-                <p>You need help with the artistic part of the project? 2D Sprites? 3D models and animations? Shaders? UI and UX? You name it!</p>
+                <p>Do you need help with the artistic part of the project? 2D Sprites? 3D models and animations? Shaders? UI and UX? You name it!</p>
             </div>
-            <img src="/assets/images/services/art.png" height="256px"/>
+            <img src="/assets/images/services/art.png" height="256px" alt="A dog drawing a painting"/>
         </div>
     </div>
 </div>
@@ -141,4 +140,6 @@ title: Services
 
 Do you have more questions, need help with your project, or want to know more?
 
-<p class="email" ><a href="mailto: {{ site.data.social-media.email.href }}">{{ site.data.social-media.email.href }}</a></p>
+<p class="email"><a href="mailto: {{ site.data.social-media.email.href }}">{{ site.data.social-media.email.href }}</a></p>
+
+<img src="/assets/images/services/panas.png" height="190px" alt="A rabbit and a dog shaking hands"/>
