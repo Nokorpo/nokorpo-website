@@ -11,9 +11,12 @@ teaser: /assets/images/games/michiball/store_capsule_main.jpg
         align-items: center;
         justify-content: center;
         background-color: black;
-        background-image: url("/assets/images/games/michiball/banner.jpg");
+        background-image: url("/assets/images/games/michiball/library_hero.jpg");
         background-position: center center;
         background-size: cover;
+    }
+    section div, section img, section iframe {
+        border-radius: 15px;
     }
 </style>
 
@@ -44,15 +47,28 @@ __Michiball__ is a local multiplayer party video game, about a fictional sport t
 - System requirements: To be announced (but will probably be pretty low).
 - Game engine: Godot 4.
 
-## Create mods
+## Wishlist on Steam!
 
-Michiball has mod support, learn about it, and about how to create your custom mods [here](/games/michiball/mods)!
+Michiball [has a Steam page](https://store.steampowered.com/app/3129180/Michiball/) and you can wishlist it now thanks to the power of the internet!
 
-[![A screenshot of a character in a 3D editor](/assets/images/games/michiball/mods.jpg)](/games/michiball/mods)
+<div style="display:flex;justify-content: center;">
+    <a hrefh="https://store.steampowered.com/app/3129180/Michiball/">
+        <img src="/assets/images/games/michiball/steam.jpg">
+    </a>
+</div>
 
+## Modding support
+
+Michiball has official mod support, you can easily create and add custom maps, and custom characters to the game. Take a look at our [mod guide](/games/michiball/mods) to learn more!
+
+[![A bunny with a helmet making mods on a TV screen](/assets/images/games/michiball/mods-banner.jpg)](/games/michiball/mods)
 
 ## Keep in touch!
 
-Follow us on Twitter [@nokorpo@twitter.com]({{ site.data.social-media.twitter.href }}) or Mastodon [@nokorpo@gamedev.lgbt]({{ site.data.social-media.mastodon.href }}) to hear news about the game!
+Follow us on Mastodon [@nokorpo@gamedev.lgbt]({{ site.data.social-media.mastodon.href }}) to stay up to date on Michiball news!
 
-<iframe src="https://gamedev.lgbt/@nokorpo/112571373706453666/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://gamedev.lgbt/embed.js" async="async"></script>
+<div style="display:flex;justify-content: center;">
+    <iframe src="https://gamedev.lgbt/@nokorpo/112571373706453666/embed" class="mastodon-embed" style="max-width: 100%;" width="500" allowfullscreen="allowfullscreen"></iframe><script src="https://gamedev.lgbt/embed.js" async="async"></script>
+</div>
+
+![](/assets/images/games/michiball/banner.jpg)

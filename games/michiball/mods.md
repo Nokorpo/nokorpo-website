@@ -1,9 +1,12 @@
 ---
 layout: default
 title: How to create mods for Michiball
+teaser: /assets/images/games/michiball/mods-banner.jpg
 ---
 
 ## {{ page.title }}
+
+![A bunny with a helmet making mods on a TV screen](/assets/images/games/michiball/mods-banner.jpg)
 
 > ⚠️ _This page is still a work in progress. The whole detailed instructions will be released when the game finally comes out._
 
