@@ -54,7 +54,6 @@ Michiball [has a Steam page](https://store.steampowered.com/app/3129180/Michibal
 <div style="display:flex;justify-content: center;">
     <a href="https://store.steampowered.com/app/3129180/Michiball/">
         <img src="/assets/images/games/michiball/steam.jpg">
-        <img src="/assets/images/games/michiball/steam_qr.svg" height="353"/>
     </a>
 </div>
 
