@@ -1,8 +1,8 @@
-twitter:
+github:
   id: 'Nokorpo'
-  href: 'https://twitter.com/nokorpo'
-  title: 'Twitter'
-  icon: 'twitter-logo.svg'
+  href: 'https://github.com/Nokorpo'
+  title: 'GitHub'
+  icon: 'github-logo.svg'
 
 mastodon:
   id: '@nokorpo@gamedev.lgbt'

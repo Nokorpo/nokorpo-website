@@ -31,11 +31,13 @@ Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-me
     </div>
 </div>
 
-## Our projects
+## Open source projects 🌌
+
+We open source some of our projects, take a look at our [GitHub]({{ site.data.social-media.github.href }})!
 
 <div id="gallery" class="gallery-small">
     <a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
-            <img width="200px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 64px;" alt="michiball">
+        <img width="200px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 64px;" alt="michiball">
     </a>
     <a style='background-image: url("/assets/images/games/infinigrass.png");' href="https://github.com/antimundo/infinigrass"></a>
     <a style='background-image: url("/assets/images/games/ratandfurrius.png");' href="https://github.com/antimundo/rat-and-furrius"></a>
@@ -46,10 +48,70 @@ Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-me
 
 ## Things we are doing for other clients
 
-Yeah we can't show much of the things we are working at due to NDAs, but we WILL share them when we can.
+We do work for hire, you can hire us too! _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-media.email.href }})_
+
+<style>
+    .project{
+        display: flex;
+        gap: 32px;
+    }
+    .project-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        border: 3px solid #20282e;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px black;
+        max-width: 400px;
+    }
+    .project-gallery > img{
+        width: 50%;
+        object-fit: cover;
+        flex-grow: 1;
+    }
+    .project-logos{
+        margin-top: 42px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .project-logos > img {
+        max-height: 50px;
+        width: auto;
+        max-width: 100%;
+    }
+    @media (max-width: 750px) {
+        .project{
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+</style>
+
+<h3>La causa del accidente que provocó el incendio</h3>
+<div class="project">
+    <div class="project-gallery">
+        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/main_menu.jpg">
+        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/screenshot-2.jpg">
+        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/screenshot.jpg">
+        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio.jpg">
+    </div>
+    <div>
+        <p>We’ve created a game inspired by the short film 'La Causa del Accidente que Provocó el Incendio' as part of the 'Spain, Where Talent Ignites' campaign to promote audiovisual talent from Spain.</p>
+        <p>You can find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">https://spainwheretalentignites.com/</a></p>
+        <div class="project-logos">
+            <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/audiovisual.png">
+            <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/icex.png">
+        </div>
+    </div>
+</div>
+
+<h3>NDAs</h3>
+
+Yeah we can’t show much of the things we are working at due to NDAs, but we WILL share them when we can.
 
 <div id="gallery" class="gallery-small">
-    <a style='background-image: url("/assets/images/games/nda.jpg");' href="#"></a>
     <a style='background-image: url("/assets/images/games/nda.jpg");' href="#"></a>
     <a style='background-image: url("/assets/images/games/nda.jpg");' href="#"></a>
 </div>

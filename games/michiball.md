@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Michiball
 teaser: /assets/images/games/michiball/store_capsule_main.jpg
 ---
 
