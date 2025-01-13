@@ -36,9 +36,9 @@ Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-me
 We open source some of our projects, take a look at our [GitHub]({{ site.data.social-media.github.href }})!
 
 <div id="gallery" class="gallery-small">
-    <a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
+    <!--a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
         <img width="200px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 64px;" alt="michiball">
-    </a>
+    </a-->
     <a style='background-image: url("/assets/images/games/infinigrass.png");' href="https://github.com/antimundo/infinigrass"></a>
     <a style='background-image: url("/assets/images/games/ratandfurrius.png");' href="https://github.com/antimundo/rat-and-furrius"></a>
     <a style='background-image: url("/assets/images/games/lafaldadelamontana.png");' href="https://github.com/Edearth/falda-montana"></a>
