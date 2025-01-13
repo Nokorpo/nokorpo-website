@@ -27,7 +27,7 @@ Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-me
     <div>
         <h2><a href="https://nepo.dev/">Nepo</a></h2>
         <h2>🌱</h2>
-        <p>Nepo is a programmer, and the person in charge of avoid making all the code explode. They have experience working as a QA in the software development industry for 8 years, so they are focused on good practices, scalability, and testing. Nepo is also a very organized and structured person and they promote good communication inside the team.</p>
+        <p>Nepo is a programmer, and the person in charge of preventing all code from exploding. They have experience working as a QA in the software development industry for 8 years, so they are focused on good practices, scalability, and testing. Nepo is also a very organized and structured person and they promote good communication inside the team.</p>
     </div>
 </div>
 
