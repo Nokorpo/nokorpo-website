@@ -40,7 +40,7 @@ li {
 }
 .img-border{
     border-radius: 10px;
-    border: 3px solid lavender;
+    border: 2px solid #503e4d;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -162,6 +162,17 @@ section>h1 {
     font-weight: normal;
     color: #777;
     font-size: medium;
+}
+
+/* elements */
+.img-container{
+    display: flex;
+}
+.img-container > img {
+    width: 25%;
+    object-fit: cover;
+    vertical-align: bottom;
+    flex-grow: 1;
 }
 
 /* games */

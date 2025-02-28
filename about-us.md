@@ -99,7 +99,7 @@ We do work for hire, you can hire us too! _[{{ site.data.social-media.email.href
     </div>
     <div>
         <p>We’ve created a game inspired by the short film 'La Causa del Accidente que Provocó el Incendio' as part of the 'Spain, Where Talent Ignites' campaign to promote audiovisual talent from Spain.</p>
-        <p>You can find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">https://spainwheretalentignites.com/</a></p>
+        <p>You can find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">spainwheretalentignites.com</a></p>
         <div class="project-logos">
             <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/audiovisual.png">
             <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/icex.png">
