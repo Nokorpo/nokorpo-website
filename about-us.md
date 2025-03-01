@@ -44,6 +44,8 @@ We open source some of our projects, take a look at our [GitHub]({{ site.data.so
     <a style='background-image: url("/assets/images/games/lafaldadelamontana.png");' href="https://github.com/Edearth/falda-montana"></a>
     <a style='background-image: url("/assets/images/games/libreaim.png");' href="https://github.com/antimundo/libre-aim"></a>
     <a style='background-image: url("/assets/images/games/mastodon-godot-viewer.png");' href="https://github.com/Nokorpo/mastodon-viewer-godot"></a>
+    <a style='background-image: url("/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio.jpg");' href="https://github.com/Nokorpo/el-accidente"></a>
+    <a style='background-image: url("/assets/images/games/spain-into-the-fediverse.png");' href="https://github.com/Nokorpo/spain-into-the-fediverse"></a>
 </div>
 
 ## Things we are doing for other clients
@@ -99,7 +101,8 @@ We do work for hire, you can hire us too! _[{{ site.data.social-media.email.href
     </div>
     <div>
         <p>We’ve created a game inspired by the short film 'La Causa del Accidente que Provocó el Incendio' as part of the 'Spain, Where Talent Ignites' campaign to promote audiovisual talent from Spain.</p>
-        <p>You can find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">spainwheretalentignites.com</a></p>
+        <p>Find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">spainwheretalentignites.com</a></p>
+        <p><a href="/blog/2025/02/28/postmortem-spain-where-talent-ignites">We published the source code of this game!</a></p>
         <div class="project-logos">
             <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/audiovisual.png">
             <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/icex.png">

@@ -23,7 +23,7 @@ Y nuestra artista [Helena Cabanillas](https://es.linkedin.com/in/helena-cabanill
 
 ![Concept arte sobre cómo se vería el videojuego, aparece un personaje de dibujos 2D corriendo sobre unas plataformas](/assets/images/posts/spain-where-talent-ignites/screenshot.jpg)
 
-[Nepo](https://nepo.dev/) estuvo valorando la viabilidad técnica, ya que pedían un juego web que funcionase en PC y en navedores móviles para iOS y Android, y [Pablo Rubio](https://antimundo.es/) revisó mucha burocracia, contratos, y otos papeles aburridos y fijó un **presupuesto de 10.000€** para nuestro proyecto, sobre el **presupuesto máximo de 14.750€** que había disponible.
+[Nepo](https://nepo.dev/) estuvo valorando la viabilidad técnica, ya que pedían un juego web que funcionase en PC y en navedores móviles para iOS y Android, y [Pablo Rubio](https://antimundo.es/) revisó mucha burocracia, contratos, y otros papeles aburridos y fijó un **presupuesto de 10.000€** para nuestro proyecto, sobre el **presupuesto máximo de 14.750€** que había disponible.
 
 ### Nuestro proyecto es elegido
 
