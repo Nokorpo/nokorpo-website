@@ -11,10 +11,11 @@ title: Services
     }
     .service-card {
         border-radius: 15px;
-        box-shadow: 0px 0px 15px black;
+        background: rgb(255, 237, 217);
+        box-shadow: 0px 0px 15px #4d403530;
         width: 0;
         flex-grow: 1; flex-shrink: 1; flex-basis: 0;
-        border: 3px solid #20282e;
+        border: 3px solid rgb(255, 223, 188);
         padding: 20px;
     }
     .service-card > h2{
@@ -40,8 +41,6 @@ title: Services
         
         .service-card {
             width: auto;
-            border: 3px solid #20282e;
-            padding: 20px;
         }
         .email {
             font-size: 24px

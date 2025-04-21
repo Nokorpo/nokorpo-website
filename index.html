@@ -5,11 +5,69 @@ description: "Nokorpo is a video game studio and Godot consultancy focused on bu
 teaser: /assets/images/index/teaser.png
 ---
 
+<style>
+.index-hero{
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/images/games/michiball/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+.index-hero>div {
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffdd;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#gallery>* {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#gallery>*>h2 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.3em;
+}
+
+</style>
+
+<div class="index-hero">
+    <div>
+        <img src="/assets/images/logo-with-text.svg" height="200px" width="auto">
+        <h2>Open source games and tools!</h2>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a class="link-pill" href="{{ site.data.social-media.github.href }}"><img src="/assets/images/social/{{ site.data.social-media.mastodon.icon }}.svg">GitHub</a>
+            <a class="link-pill" href="{{ site.data.social-media.discord.href }}"><img src="/assets/images/social/{{ site.data.social-media.discord.icon }}.svg">Discord</a>
+            <a class="link-pill" href="mailto:{{ site.data.social-media.email.href }}"><img src="/assets/images/social/{{ site.data.social-media.email.icon }}.svg">Contact</a>
+        </div>
+    </div>
+</div>
+
 <div id="gallery">
-    <a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball">
-        <img width="256px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 100px;" alt="michiball">
-    </a>
-    <a style='background-image: url("/assets/images/index/services.png");' href="/services">
-        <h2 style="color: white;margin-top: 90px;">SERVICES</h2>
-    </a>
+    <div>
+        <div>
+            <h3>LibreAim</h3>
+            <img> <!--icon-->
+        </div>
+        <p>Description</p>
+        <div>Buttons</div>
+        <div>bottom-image</div>
+    </div>
 </div>

@@ -2,16 +2,23 @@ github:
   id: 'Nokorpo'
   href: 'https://github.com/Nokorpo'
   title: 'GitHub'
-  icon: 'github-logo.svg'
+  icon: 'github'
 
 mastodon:
   id: '@nokorpo@gamedev.lgbt'
   href: 'https://gamedev.lgbt/@nokorpo'
   title: 'Mastodon'
-  icon: 'mastodon-logo.svg'
+  icon: 'mastodon'
 
 email:
   id: 'contact@nokorpo.com'
   href: 'contact@nokorpo.com'
   title: 'Email'
-  icon: 'email-logo.svg'
+  icon: 'email'
+
+discord:
+  id: 'discord'
+  href: 'https://discord.com/invite/u2Hm8sMagF'
+  title: 'Discord'
+  icon: 'discord'
+

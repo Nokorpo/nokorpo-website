@@ -1,19 +1,19 @@
 <header>
     <div class="real-header">
-        <a href="/" id="home"><img src="/assets/images/header-icon.svg" alt="Nokorpo" width="px" height="50px"></a>
-        <div>
+        <a href="/" id="home"><img src="/assets/images/logo.svg" alt="Nokorpo" width="px" height="50px"></a>
+        <div class="header-navigation">
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url==item.link %}class="navigation-item current" {% endif %} class="navigation-item">
+            <a href="{{ item.link }}" {% if page.url==item.link %}class="navigation-item navigation-item-current" {% endif %} class="navigation-item">
                 {{ item.name }}
             </a>
             {% endfor %}
         </div>
-        <div>
+        <div class="header-social-media">
             <a rel="me" href="{{ site.data.social-media.mastodon.href }}" target="_blank" style="padding-top: 16px;margin: 0px 10px 0px 10px;">
-                <img src="/assets/images/social/{{ site.data.social-media.mastodon.icon }}" width="20px" height="20px" alt="Mastodon">
+                <img src="/assets/images/social/{{ site.data.social-media.mastodon.icon }}.svg" width="20px" height="20px" alt="Mastodon">
             </a>
             <a rel="me" href="{{ site.data.social-media.github.href }}" target="_blank" style="padding-top: 16px;margin: 0px 10px 0px 10px;">
-                <img src="/assets/images/social/{{ site.data.social-media.github.icon }}" width="20px" height="20px" alt="GitHub">
+                <img src="/assets/images/social/{{ site.data.social-media.github.icon }}.svg" width="20px" height="20px" alt="Mastodon">
             </a>
         </div>
     </div>

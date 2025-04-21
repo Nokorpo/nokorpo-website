@@ -3,10 +3,11 @@
     src: url("/assets/fonts/Inter-VariableFont_wght.ttf");
 }
 
+$color-main: #ff597a;
+
 body {
     font-family: "inter";
     background-color: #FFF3E6;
-    color: #000000;
     line-height: 1.6em;
     margin: 0px;
 }
@@ -15,23 +16,31 @@ body>section, body>header>div {
     max-width: 1000px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: white;
-}
-
 a {
-    color: #ff597a;
+    color: $color-main;
     text-decoration: none;
-}
-
-img,
-iframe {
-    max-width: 100%;
-    object-fit: contain;
 }
 
 li {
     margin: 5px 0;
+}
+
+.link-pill { 
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 6px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: $color-main;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.link-pill>img {
+    filter: brightness(10);
+    height: 16px;
+    max-width: 16px;
 }
 
 .text-center {
@@ -53,11 +62,11 @@ li {
 
 /* header */
 header {
+    z-index: 1;
     position: sticky;
     top: 0;
-    padding: 20px;
-    margin-bottom: 40px;
-    border-bottom: 5px solid #000000;
+    padding: 10px;
+    box-shadow: 0 0px 2px 2px #4d403530;
     background-color: #FFF3E6;
 }
 
@@ -69,64 +78,17 @@ header {
     align-items: center;
 }
 
-.real-header > * :hover {
-    filter: contrast(130%);
-}
-
-.real-header > .navigation-item {
-    font-weight: 500;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid rgb(199, 91, 136);
-}
-
-.real-header > .current {
-    color: #bbb;
-    border-bottom: 3px solid #ddd;
-}
-
-/* index */
-#gallery {
+.header-navigation {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    gap: 15px;
 }
 
-#gallery>a {
-    width: 350px;
-    height: 350px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    border-radius: 25px;
-    /* border: 5px solid #cac2ba; */
-    border-bottom: 15px solid #cac2ba;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    text-align: center;
-    background-color: #20282e;
-    background-position: center;
-    background-size: cover;
-    transition: all 0.2s;
-    display: flex;
-    justify-content: center;
+.navigation-item {
+    font-weight: 600;
 }
 
-#gallery>a>h2 {
-    font-weight: 800;
-    font-size: 42px;
-    line-height: 1.3em;
-}
-
-.gallery-small>* {
-    width: 252px !important;
-    height: 200px !important;
-}
-
-#gallery>a:hover {
-    border: 5px solid #96356d;
+.navigation-item-current {
+    color: black;
 }
 
 /* section */
