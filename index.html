@@ -28,24 +28,47 @@ teaser: /assets/images/index/teaser.png
 }
 
 #gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 30px;
+}
+.thing{
+    background-color: red;
+}
+.card {
+    flex: 1 1 0px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    background: white;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 24px;
 }
-
-#gallery>* {
-    padding: 15px;
-    border-radius: 25px;
-    background-color: white;
+.card-icon {
+    margin-right: 10px;
 }
-
-#gallery>*>h2 {
-    font-weight: 800;
-    font-size: 42px;
-    line-height: 1.3em;
+.card-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
 }
-
+.card > p {
+    flex-grow: 1;
+}
+.card-screenshot {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: auto;
+}
 </style>
 
 <div class="index-hero">
@@ -53,7 +76,7 @@ teaser: /assets/images/index/teaser.png
         <img src="/assets/images/logo-with-text.svg" height="200px" width="auto">
         <h2>Open source games and tools!</h2>
         <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <a class="link-pill" href="{{ site.data.social-media.github.href }}"><img src="/assets/images/social/{{ site.data.social-media.mastodon.icon }}.svg">GitHub</a>
+            <a class="link-pill" href="{{ site.data.social-media.github.href }}"><img src="/assets/images/social/{{ site.data.social-media.github.icon }}.svg">GitHub</a>
             <a class="link-pill" href="{{ site.data.social-media.discord.href }}"><img src="/assets/images/social/{{ site.data.social-media.discord.icon }}.svg">Discord</a>
             <a class="link-pill" href="mailto:{{ site.data.social-media.email.href }}"><img src="/assets/images/social/{{ site.data.social-media.email.icon }}.svg">Contact</a>
         </div>
@@ -61,13 +84,92 @@ teaser: /assets/images/index/teaser.png
 </div>
 
 <div id="gallery">
-    <div>
-        <div>
-            <h3>LibreAim</h3>
-            <img> <!--icon-->
-        </div>
-        <p>Description</p>
-        <div>Buttons</div>
-        <div>bottom-image</div>
-    </div>
+    <project-card
+        name="Michiball"
+        description="Local multiplayer party video game, about a fictional sport that mixes baseball and dodgeball."
+        icon="michiball.svg" 
+        screenshot="michiball.jpg"
+        steam="https://store.steampowered.com/app/3129180/Michiball/?l=spanish">
+    </project-card>
+    <project-card
+        name="Infinigrass"
+        description="A jam game about planting barley in order to get a lot of beer."
+        icon="infinigrass.svg" 
+        screenshot="infinigrass.png"
+        github="https://github.com/Nokorpo/infinigrass"
+        itchio ="https://antimundo.itch.io/infinigrass">
+    </project-card>
+    <project-card
+        name="Rat and Furrius"
+        description="Action jam game about a rat with a sword who is in a hurry for getting rid of their enemies."
+        icon="rat-and-furrius.svg" 
+        screenshot="ratandfurrius.png"
+        github="https://github.com/Nokorpo/rat-and-furrius"
+        itchio ="https://antimundo.itch.io/rat-and-furrius">
+    </project-card>
 </div>
+
+<script>
+    function createCardLinks(element, name) {
+        var link = ""
+        var id = name.toLowerCase()
+        if (element.hasAttribute(id)) {
+            link += `<a class="link-pill" href="${element.getAttribute(id)}"><img src="/assets/images/social/${id}.svg">${name}</a>`
+        }
+        return link
+    }
+    class ProjectCard extends HTMLElement {
+        constructor() {
+            super();
+
+            this.classList.add('card');
+
+            // Create and append the HTML elements directly to this (the custom element)
+            const name = this.getAttribute('name');
+            const description = this.getAttribute('description');
+            const icon = this.getAttribute('icon');
+            const screenshot = this.getAttribute('screenshot');
+
+            // Header with name and icon
+            const cardHeader = document.createElement('div');
+            cardHeader.classList.add('card-header');
+            cardHeader.innerHTML = `
+                <h3>${name}</h3>
+                <img src="/assets/images/projects/icons/${icon}" class="card-icon" width="50px" height="50px" alt="Icon">
+            `;
+
+            // Description
+            const descriptionElement = document.createElement('p');
+            descriptionElement.textContent = description;
+
+            // Links
+            const cardLinks = document.createElement('div');
+            cardLinks.classList.add('card-links');
+            cardLinks.innerHTML += createCardLinks(this, "GitHub")
+            cardLinks.innerHTML += createCardLinks(this, "Itchio")
+            cardLinks.innerHTML += createCardLinks(this, "Steam")
+            
+            // Screenshot
+            const screenshotElement = document.createElement('img');
+            screenshotElement.src = `/assets/images/games/${screenshot}`;
+            screenshotElement.classList.add('card-screenshot');
+            screenshotElement.alt = 'Screenshot';
+
+            // Conditionally add the special message if the data-special attribute is passed
+            if (this.hasAttribute('data-special') && this.getAttribute('data-special') === 'true') {
+                const specialElement = document.createElement('div');
+                specialElement.classList.add('special-message');
+                specialElement.textContent = 'This is a special project!';
+                this.appendChild(specialElement);  // Append special message directly to the component
+            }
+
+            // Append all elements directly to the custom element (this)
+            this.appendChild(cardHeader);
+            this.appendChild(descriptionElement);
+            this.appendChild(cardLinks);
+            this.appendChild(screenshotElement);
+        }
+    }
+
+    customElements.define('project-card', ProjectCard);
+</script>
