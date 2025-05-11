@@ -7,3 +7,6 @@ collections:
     output: true
   kramdown:
       auto_ids: true
+
+highlighter: rouge
+

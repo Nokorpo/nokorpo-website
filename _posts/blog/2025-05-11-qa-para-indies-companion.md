@@ -21,6 +21,48 @@ Estas son las slides de la charla. Siempre dejo algunas notas en la sección de 
 
 - [Slides](https://docs.google.com/presentation/d/1lJ91mWvEyWLBHhpEMb3H3JPCttWjIv5vagubomynnFU)
 
+### Tests de integración
+
+La estructura típica para escribir un test de integración es:
+
+* **GIVEN:** preparar variables, datos e instancias de clases que necesites para el test. Básicamente, configurar el contexto sobre el que el test se ejecutará.
+* **WHEN:** realizas la acción que quieres testear. Esta tendrá cambios sobre el contexto que hemos montado.
+* **THEN:** comprobamos que la acción genera los cambios que esperamos y que tiene el resultado que esperamos.
+
+Un ejemplo de definición de un test podría ser:
+
+```gherkin
+Scenario: Player hit by ball
+Given the player object
+  And the ball object
+When  the ball moves towards the player and hits it
+Then  the player detects the hit
+  And the player moves in the opposite direction from where the ball hit it
+```
+
+Y la implementación del mismo en GDScript, usando GUT:
+
+```gdscript
+func test_player_hit_by_ball() -> void:
+	#GIVEN
+	var test_scene: Node3D = add_child_autofree(_test_scene.instantiate())
+	var player: Player = test_scene.find_child("Player")
+	var original_player_position: Vector3 = player.global_position
+	watch_signals(player)
+	var ball: Ball = test_scene.find_child("Ball")
+
+	#WHEN
+	ball.velocity = Vector3(0, 0, 4)
+	await(wait_for_signal(player.player_hit_by_ball, 2, "wait for hit"))
+	# wait for hit animation to finish
+	await(wait_for_signal(player.player_hit_ended, 2, "wait for hit"))
+	
+	#THEN
+	assert_signal_emitted(player, "player_hit_by_ball", "player didn't receive hit")
+	assert_almost_eq(player.velocity, Vector3(0, 5, 9), Vector3.ONE, "player was not pushed backwards")
+
+```
+
 ### CI
 
 En la charla hablé de los entornos de Integración Continua (CI, por las siglas en inglés). Aunque no pude entrar a explicarla en detalle, compartí la configuración de CI que usamos en jams. Esta hace la build web de un juego de Godot y la publicar directamente a Itch, todo con sólo pulsar un botón.
