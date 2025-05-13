@@ -26,48 +26,8 @@ teaser: /assets/images/index/teaser.png
     backdrop-filter: blur(3px);
     border-radius: 15px;
 }
-
-#gallery {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    gap: 30px;
-}
-.thing{
-    background-color: red;
-}
-.card {
-    flex: 1 1 0px;
-    padding: 14px;
-    border: 1px solid #ccc;
-    background: white;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-}
-.card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 24px;
-}
-.card-icon {
-    margin-right: 10px;
-}
-.card-links {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 16px;
-}
-.card > p {
-    flex-grow: 1;
-}
-.card-screenshot {
-    margin-top: 10px;
-    border-radius: 8px;
-    width: 100%;
-    margin-top: auto;
+.card{
+    max-width: 270px;
 }
 </style>
 
@@ -83,13 +43,14 @@ teaser: /assets/images/index/teaser.png
     </div>
 </div>
 
-<div id="gallery">
+<div class="card-container">
     <project-card
         name="Michiball"
         description="Local multiplayer party video game, about a fictional sport that mixes baseball and dodgeball."
         icon="michiball.svg" 
         screenshot="michiball.jpg"
-        steam="https://store.steampowered.com/app/3129180/Michiball/?l=spanish">
+        steam="https://store.steampowered.com/app/3129180/Michiball/?l=spanish"
+        web="projects/michiball">
     </project-card>
     <project-card
         name="Infinigrass"
@@ -106,6 +67,72 @@ teaser: /assets/images/index/teaser.png
         screenshot="ratandfurrius.png"
         github="https://github.com/Nokorpo/rat-and-furrius"
         itchio ="https://antimundo.itch.io/rat-and-furrius">
+    </project-card>
+    <project-card
+        name="La Falda de la Montaña"
+        description="Arcade jam game about getting to the top of a mountain."
+        icon="falda-montana.svg" 
+        screenshot="lafaldadelamontana.png"
+        github="https://github.com/Nokorpo/rat-and-furrius"
+        itchio ="https://antimundo.itch.io/rat-and-furrius">
+    </project-card>
+    <project-card
+        name="LibreAim"
+        description="Free and open source FPS aim trainer made with Godot."
+        icon="libreaim.svg" 
+        screenshot="libreaim.png"
+        github="https://github.com/Nokorpo/LibreAim"
+        itchio ="https://antimundo.itch.io/libreaim">
+    </project-card>
+    <project-card
+        name="Mastodon Godot Viewer"
+        description="A simple Control node for Godot to see a Mastodon user timeline."
+        icon="mastodon-godot-viewer.svg" 
+        screenshot="mastodon-godot-viewer.png"
+        github="https://github.com/Nokorpo/rat-and-furrius">
+    </project-card>
+    <project-card
+        name="La causa del accidente que provocó el incendio"
+        description="Web game inspired by the short film, as part of the 'Spain Where Talent Ignites' campaign."
+        icon="el-accidente.png"
+        screenshot="la-causa-del-accidente-que-provoco-el-incendio.jpg"
+        github="https://github.com/Nokorpo/el-accidente"
+        web="#">
+    </project-card>
+    <project-card
+        name="Chimpún"
+        description="Rythm game where players form a music band and make their songs known throughout different Spain locations."
+        icon="chimpun.svg" 
+        screenshot="chimpun.png"
+        web="https://iseltec.com/?page_id=409">
+    </project-card>
+    <project-card
+        name="Hurty"
+        description="Web game inspired by the short film 'Hurty', by Jorge Vidal."
+        icon="hurty.png" 
+        screenshot="hurty.jpg"
+        web="#">
+    </project-card>
+    <project-card
+        name="Spain into the Fediverse"
+        description="Collaborative list of Spanish collectives that enter the Fediverse."
+        icon="spain-into-the-fediverse.png" 
+        screenshot="spain-into-the-fediverse.png"
+        web="https://nokorpo.github.io/spain-into-the-fediverse/"
+        github="https://github.com/Nokorpo/spain-into-the-fediverse">
+    </project-card>
+    <project-card
+        name="GATO"
+        description="Wip..."
+        icon="nokorpo.jpg" 
+        screenshot="nda.jpg">
+    </project-card>
+    <project-card
+        name="GDSnap"
+        description="Wip..."
+        icon="nokorpo.jpg" 
+        screenshot="nda.jpg"
+        github="#">
     </project-card>
 </div>
 
@@ -140,6 +167,7 @@ teaser: /assets/images/index/teaser.png
 
             // Description
             const descriptionElement = document.createElement('p');
+            descriptionElement.classList.add('card-grow');
             descriptionElement.textContent = description;
 
             // Links
@@ -148,6 +176,7 @@ teaser: /assets/images/index/teaser.png
             cardLinks.innerHTML += createCardLinks(this, "GitHub")
             cardLinks.innerHTML += createCardLinks(this, "Itchio")
             cardLinks.innerHTML += createCardLinks(this, "Steam")
+            cardLinks.innerHTML += createCardLinks(this, "Web")
             
             // Screenshot
             const screenshotElement = document.createElement('img');

@@ -12,109 +12,32 @@ We make our own games, and we also help others create theirs. We work fast and w
 
 Email: _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-media.email.href }})_
 
-
-<div class="columns">
-    <div>
-        <h2><a href="https://linktr.ee/alicia.redmarr">Alicia "Ali" Redmarr</a></h2>
-        <h2>🐉</h2>
-        <p>Alicia is the designer and creative director of Nokorpo. She is the person making hard design and gameplay decisions, playtesting, and making sure the game is fun. She also creates the art to make the games look pretty. Alicia brings fun to the team and our projects.</p>
-    </div>
-    <div>
-        <h2><a href="https://antimundo.es/">Antimundo</a></h2>
-        <h2>🐛</h2>
-        <p>Antimundo is a gameplay programmer and UX / UI designer. He makes sure players understand what is happening and how to play, and he is the person in charge of making games and controls feel juicy. He is also very outcome driven and that helps keep scope under control.</p>
-    </div>
-    <div>
-        <h2><a href="https://nepo.dev/">Nepo</a></h2>
-        <h2>🌱</h2>
-        <p>Nepo is a programmer, and the person in charge of preventing all code from exploding. They have experience working as a QA in the software development industry for 8 years, so they are focused on good practices, scalability, and testing. Nepo is also a very organized and structured person and they promote good communication inside the team.</p>
-    </div>
-</div>
-
-## Open source projects 🌌
-
-We open source some of our projects, take a look at our [GitHub]({{ site.data.social-media.github.href }})!
-
-<div id="gallery" class="gallery-small">
-    <!--a style='background-image: url("/assets/images/index/bat.png");' href="/games/michiball.html">
-        <img width="200px" src="/assets/images/games/michiball/michiball-logo.png" style="margin-bottom: 64px;" alt="michiball">
-    </a-->
-    <a style='background-image: url("/assets/images/games/infinigrass.png");' href="https://github.com/antimundo/infinigrass"></a>
-    <a style='background-image: url("/assets/images/games/ratandfurrius.png");' href="https://github.com/antimundo/rat-and-furrius"></a>
-    <a style='background-image: url("/assets/images/games/lafaldadelamontana.png");' href="https://github.com/Edearth/falda-montana"></a>
-    <a style='background-image: url("/assets/images/games/libreaim.png");' href="https://github.com/antimundo/libre-aim"></a>
-    <a style='background-image: url("/assets/images/games/mastodon-godot-viewer.png");' href="https://github.com/Nokorpo/mastodon-viewer-godot"></a>
-    <a style='background-image: url("/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio.jpg");' href="https://github.com/Nokorpo/el-accidente"></a>
-    <a style='background-image: url("/assets/images/games/spain-into-the-fediverse.png");' href="https://github.com/Nokorpo/spain-into-the-fediverse"></a>
-</div>
-
-## Things we are doing for other clients
-
-We do work for hire, you can hire us too! _[{{ site.data.social-media.email.href }}](mailto: {{ site.data.social-media.email.href }})_
+## Meet the team
 
 <style>
-    .project{
-        display: flex;
-        gap: 32px;
-    }
-    .project-gallery{
-        display: flex;
-        flex-wrap: wrap;
-        overflow: hidden;
-        border: 3px solid #20282e;
-        border-radius: 15px;
-        box-shadow: 0px 0px 15px black;
-        max-width: 400px;
-    }
-    .project-gallery > img{
-        width: 50%;
-        object-fit: cover;
-        flex-grow: 1;
-    }
-    .project-logos{
-        margin-top: 42px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 32px;
-    }
-    .project-logos > img {
-        max-height: 50px;
-        width: auto;
-        max-width: 100%;
-    }
-    @media (max-width: 750px) {
-        .project{
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+    .card-link {
+        margin-bottom: auto;
     }
 </style>
 
-<h3>La causa del accidente que provocó el incendio</h3>
-<div class="project">
-    <div class="project-gallery">
-        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/main_menu.jpg">
-        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/screenshot-2.jpg">
-        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/screenshot.jpg">
-        <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio.jpg">
+
+<div class="card-container">
+    <div class="card">
+        <h2>Alicia "Ali" Redmarr</h2>
+        <img src="/assets/images/about-us/avatar_ali.png">
+        <p class="card-grow">Alicia is the designer and creative director of Nokorpo. She is the person making hard design and gameplay decisions, playtesting, and making sure the game is fun. She also creates the art to make the games look pretty. Alicia brings fun to the team and our projects.</p>
+        <p class="card-link"><a class="link-pill" href="https://linktr.ee/alicia.redmarr"><img src="/assets/images/social/web.svg">linktr.ee/alicia.redmarr</a></p>
     </div>
-    <div>
-        <p>We’ve created a game inspired by the short film 'La Causa del Accidente que Provocó el Incendio' as part of the 'Spain, Where Talent Ignites' campaign to promote audiovisual talent from Spain.</p>
-        <p>Find out more about the campaign (and play the game) on their website: <a href="https://spainwheretalentignites.com/">spainwheretalentignites.com</a></p>
-        <p><a href="/blog/2025/02/28/postmortem-spain-where-talent-ignites">We published the source code of this game!</a></p>
-        <div class="project-logos">
-            <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/audiovisual.png">
-            <img src="/assets/images/games/la-causa-del-accidente-que-provoco-el-incendio/icex.png">
-        </div>
+    <div class="card">
+        <h2>Antimundo</h2>
+        <img src="/assets/images/about-us/avatar_anti.png">
+        <p class="card-grow">Antimundo is a gameplay programmer and UX / UI designer. He makes sure players understand what is happening and how to play, and he is the person in charge of making games and controls feel juicy. He is also very outcome driven and that helps keep scope under control.</p>
+        <p class="card-link"><a class="link-pill" href="https://antimundo.es/"><img src="/assets/images/social/web.svg">antimundo.es</a></p>
     </div>
-</div>
-
-<h3>NDAs</h3>
-
-Yeah we can’t show much of the things we are working at due to NDAs, but we WILL share them when we can.
-
-<div id="gallery" class="gallery-small">
-    <a style='background-image: url("/assets/images/games/nda.jpg");' href="#"></a>
-    <a style='background-image: url("/assets/images/games/nda.jpg");' href="#"></a>
+    <div class="card">
+        <h2>Nepo</h2>
+        <img src="/assets/images/about-us/avatar_nepo.png">
+        <p class="card-grow">Nepo is a programmer and QA. They have 8 years of experience working in quality, so they are focused on good practices, scalability, and testing. Nepo is also a very organized and structured person and they promote good communication inside the team.</p>
+        <p class="card-link"><a class="link-pill" href="https://nepo.dev/"><img src="/assets/images/social/web.svg">nepo.dev</a></p>
+    </div>
 </div>

@@ -91,6 +91,62 @@ header {
     color: black;
 }
 
+/* cards */
+.card-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.card {
+    flex: 1 1 20%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background: white;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.card-icon {
+    margin-right: 10px;
+}
+.card-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.card-grow {
+    flex-grow: 1;
+}
+.card > img {
+    width: 100%;
+}
+.card > h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card-screenshot {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: auto;
+}
+@media (max-width: 750px) {
+    #card-container {
+        gap: 10px;
+        padding: 0px 10px;
+    }
+}
+
 /* section */
 section {
     margin: auto;
@@ -215,6 +271,10 @@ section>h1 {
     flex: 1 1 0;
 }
 
+.columns>div>img {
+    width: 100%;
+}
+
 .columns>div:not(:first-child):not(:last-child) {
     margin-right: 30px;
     margin-left: 30px;
@@ -226,12 +286,8 @@ section>h1 {
 
 /* Mobile */
 @media (max-width: 750px) {
-    header {
+    .real-header {
         flex-direction: column;
-    }
-
-    header>* {
-        margin-right: 0px;
     }
 
     #gallery>a {

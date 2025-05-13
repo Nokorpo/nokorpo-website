@@ -8,24 +8,11 @@ title: Services
         margin-bottom: 18px;
         display: flex;
         gap: 18px;
-    }
-    .service-card {
-        border-radius: 15px;
-        background: rgb(255, 237, 217);
-        box-shadow: 0px 0px 15px #4d403530;
-        width: 0;
-        flex-grow: 1; flex-shrink: 1; flex-basis: 0;
-        border: 3px solid rgb(255, 223, 188);
-        padding: 20px;
-    }
-    .service-card > h2{
-        text-align: center;
-        padding-bottom: 5px;
-    }
+    }    
     .column-design {
         display: flex;
     }
-    .service-card > div > img {
+    .card > div > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -38,7 +25,6 @@ title: Services
         .services-container {
             flex-direction: column;
         }
-        
         .service-card {
             width: auto;
         }
@@ -54,7 +40,7 @@ title: Services
 </div>
 
 <div class="services-container">
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#godot">Godot</a></h2>
         <div>
             <div>
@@ -65,7 +51,7 @@ title: Services
     </div>
 </div>
 <div class="services-container">
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#steam">Steam services</a></h2>
         <div>
             <div>
@@ -75,7 +61,7 @@ title: Services
             <img src="/assets/images/services/steam.png" height="256px" alt="A hamster holding a trophy, there is also a Steam logo and a SteamDeck"/>
         </div>
     </div>
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#ci-and-automation">CI environment and automation</a></h2>
         <div>
             <div>
@@ -84,7 +70,7 @@ title: Services
             <img src="/assets/images/services/servers.png" height="256px" alt="A cat looking at a server rack"/>
         </div>
     </div>
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#testing-and-qa">Testing and QA</a></h2>
         <div>
             <div>
@@ -95,7 +81,7 @@ title: Services
     </div>
 </div>
 <div class="services-container">
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#vr-ar">VR and AR</a></h2>
         <div>
             <div>
@@ -104,7 +90,7 @@ title: Services
             <img src="/assets/images/services/vr.png" height="256px" alt="A dog wearing some VR glasses"/>
         </div>
     </div>
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#porting">Porting</a></h2>
         <div>
             <div>
@@ -115,7 +101,7 @@ title: Services
     </div>
 </div>
 <div class="services-container">
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#unity">Unity</a></h2>
         <div>
             <div>
@@ -124,7 +110,7 @@ title: Services
             <img src="/assets/images/services/unity.png" height="256px" alt="A cat holding a sign with the Unity logo"/>
         </div>
     </div>
-    <div class="service-card">
+    <div class="card">
         <h2><a href="#art">Video game art</a></h2>
         <div>
             <div>
