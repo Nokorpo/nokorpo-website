@@ -344,4 +344,19 @@ section div, section img, section iframe {
         margin-right: 0px;
         margin-left: 0px;
     }
+
+    .category-header {
+        max-width: calc(270px + 32px);
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 70%;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        min-width: 50%;
+    }
 }
