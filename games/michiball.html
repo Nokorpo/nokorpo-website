@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="0; url='https://nokorpo.com/projects/michiball/'" />
+    <title>Michiball - Nokorpo</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="/assets/images/icon.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nokorpo">
+    {% if page.description != null %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    {% if page.title != null %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    {% endif %}
+    {% if page.teaser != null %}
+    <meta property="og:image" content="{{ page.teaser }}"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630"/>
+    <meta name="twitter:image" content="{{ page.teaser }}"/>
+    <meta name="twitter:card" content="summary_large_image">
+    {% endif %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Nokorpo" />
+  </head>
+  <body>
+    <section>
+      <p>This page was moved. You can find the new page in this link:<p>
+      <a href="https://nokorpo.com/projects/michiball/">new page in this link</a>
+    </section>
+  </body>
+</html>
