@@ -13,13 +13,13 @@ Si necesitas ayuda con QA o automatización en tu equipo, [¡contáctanos!](#con
 
 ### Slides
 
-!!!
-#TODO embed!!!
-!!!
+Haz click en la imagen que ves a continuación para descargar las slides:
+
+<a href="/assets/downloads/guadalindie/guadalindie.pdf">
+![una captura de la portada de la presentación, con título "QA para indies: deja de apagar fuegos y empieza a prevenir bugs"](/assets/images/posts/qa-para-indies/pdf.png)
+</a>
 
 Estas son las slides de la charla. Siempre dejo algunas notas en la sección de "speaker notes" para acordarme de que tengo que decir algo. Pero la información importante está visible en la slide.
-
-- [Slides](https://docs.google.com/presentation/d/1lJ91mWvEyWLBHhpEMb3H3JPCttWjIv5vagubomynnFU)
 
 ### Tests de integración
 
