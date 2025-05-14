@@ -10,7 +10,7 @@ teaser: /assets/images/games/michiball/mods-banner.jpg
 
 > ⚠️ _This page is still a work in progress. The whole detailed instructions will be released when the game finally comes out._
 
-Our game [Michiball](/games/michiball) has mod support.
+Our game [Michiball](/projects/michiball) has mod support.
 
 ## How to create custom characters
 
@@ -38,7 +38,7 @@ So you just need to change these files to create a custom character. You can hav
 You can open and modify the `sample_character.gltf` as you want.
 
 The easiest way we offer, is to download the `sample_character.bbmodel`, and modify it using the open source [Blockbench](https://www.blockbench.net/) app.
-/assets/images/games/michiball/store_capsule_main.jpg
+
 <a href="/assets/downloads/michiball/sample_character.bbmodel" download="sample_character.bbmodel">
 <button>Click to download the sample character</button>
 </a>

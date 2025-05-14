@@ -284,6 +284,22 @@ section>h1 {
     text-align: center;
 }
 
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url("/assets/images/games/michiball/library_hero.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+section div, section img, section iframe {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
 /* Mobile */
 @media (max-width: 750px) {
     .real-header {

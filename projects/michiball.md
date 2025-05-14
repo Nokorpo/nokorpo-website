@@ -4,23 +4,6 @@ title: Michiball
 teaser: /assets/images/games/michiball/store_capsule_main.jpg
 ---
 
-<style>
-    .banner {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        background-image: url("/assets/images/games/michiball/library_hero.jpg");
-        background-position: center center;
-        background-size: cover;
-    }
-    section div, section img, section iframe {
-        border-radius: 15px;
-    }
-</style>
-
 <div class="banner">
     <img src="/assets/images/games/michiball/michiball-logo.png" height="200px" width="auto" alt="Michiball logo">
 </div>
@@ -60,7 +43,7 @@ Michiball [has a Steam page](https://store.steampowered.com/app/3129180/Michibal
 
 ## Modding support
 
-Michiball has official mod support, you can easily create and add custom maps, and custom characters to the game. Take a look at our [mod guide](/games/michiball/mods) to learn more!
+Michiball has official mod support, you can easily create and add custom maps, and custom characters to the game. Take a look at our [mod guide](/projects/michiball/mods) to learn more!
 
 [![A bunny with a helmet making mods on a TV screen](/assets/images/games/michiball/mods-banner.jpg)](/games/michiball/mods)
 
