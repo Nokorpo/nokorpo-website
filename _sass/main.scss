@@ -12,6 +12,18 @@ body {
     margin: 0px;
 }
 
+.category-header {
+    font-size: 34px;
+}
+
+.category-games {
+    color: #FF597A;
+}
+
+.category-tools {
+    color: #59AFFF;
+}
+
 body>section, body>header>div {
     max-width: 1000px;
 }

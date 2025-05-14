@@ -14,6 +14,7 @@ teaser: /assets/images/index/teaser.png
     background-size: cover;
     padding: 20px;
     border-radius: 0px 0px 15px 15px;
+    margin-bottom: 60px;
 }
 .index-hero>div {
     display: flex;
@@ -42,6 +43,10 @@ teaser: /assets/images/index/teaser.png
         </div>
     </div>
 </div>
+
+<h2 class="category-header">Our projects</h2>
+
+<h2 class="category-header category-games">Games</h2>
 
 <div class="card-container">
     <project-card
@@ -84,6 +89,11 @@ teaser: /assets/images/index/teaser.png
         github="https://github.com/Nokorpo/LibreAim"
         itchio ="https://antimundo.itch.io/libreaim">
     </project-card>
+</div>
+
+<h2 class="category-header category-tools">Tools</h2>
+
+<div class="card-container">
     <project-card
         name="Mastodon Godot Viewer"
         description="A simple Control node for Godot to see a Mastodon user timeline."
@@ -91,6 +101,32 @@ teaser: /assets/images/index/teaser.png
         screenshot="mastodon-godot-viewer.png"
         github="https://github.com/Nokorpo/rat-and-furrius">
     </project-card>
+    <project-card
+        name="GDSnap"
+        description="Wip..."
+        icon="nokorpo.jpg" 
+        screenshot="nda.jpg"
+        github="#">
+    </project-card>
+    <project-card
+        name="GATO"
+        description="Wip..."
+        icon="nokorpo.jpg" 
+        screenshot="nda.jpg">
+    </project-card>
+    <project-card
+        name="Spain into the Fediverse"
+        description="Collaborative list of Spanish collectives that enter the Fediverse."
+        icon="spain-into-the-fediverse.png" 
+        screenshot="spain-into-the-fediverse.png"
+        web="https://nokorpo.github.io/spain-into-the-fediverse/"
+        github="https://github.com/Nokorpo/spain-into-the-fediverse">
+    </project-card>
+</div>
+
+<h2 class="category-header">Projects for clients</h2>
+
+<div class="card-container">
     <project-card
         name="La causa del accidente que provocó el incendio"
         description="Web game inspired by the short film, as part of the 'Spain Where Talent Ignites' campaign."
@@ -112,27 +148,6 @@ teaser: /assets/images/index/teaser.png
         icon="hurty.png" 
         screenshot="hurty.jpg"
         web="#">
-    </project-card>
-    <project-card
-        name="Spain into the Fediverse"
-        description="Collaborative list of Spanish collectives that enter the Fediverse."
-        icon="spain-into-the-fediverse.png" 
-        screenshot="spain-into-the-fediverse.png"
-        web="https://nokorpo.github.io/spain-into-the-fediverse/"
-        github="https://github.com/Nokorpo/spain-into-the-fediverse">
-    </project-card>
-    <project-card
-        name="GATO"
-        description="Wip..."
-        icon="nokorpo.jpg" 
-        screenshot="nda.jpg">
-    </project-card>
-    <project-card
-        name="GDSnap"
-        description="Wip..."
-        icon="nokorpo.jpg" 
-        screenshot="nda.jpg"
-        github="#">
     </project-card>
 </div>
 
@@ -202,3 +217,4 @@ teaser: /assets/images/index/teaser.png
 
     customElements.define('project-card', ProjectCard);
 </script>
+
