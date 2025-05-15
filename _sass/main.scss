@@ -372,4 +372,12 @@ section div, section img, section iframe {
     .card {
         min-width: 50%;
     }
+
+    .card > div > img {
+        height: 100%;
+    }
+
+    .card-icon {
+        height: inherit !important;
+    }
 }
