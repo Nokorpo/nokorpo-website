@@ -82,7 +82,7 @@ Si queréis probar la herramienta de Screenshot testing para Godot que hemos cre
 
 ![imagen de diferencia entre 2 capturas generado por GDSnap](/assets/images/posts/qa-para-indies/player_selection_diff.png){:width="50%" style="display:block; margin-left:auto; margin-right:auto"}
 
-Estamos pendientes de que lo acepten en la Asset Library de Godot. En cuanto lo revisen, añadiremos el enlace en este post.
+También lo podéis encontrar en la [Asset Library de Godot](https://godotengine.org/asset-library/asset/4018), o descargándolo directamente desde el editor en la sección de AssetLib.
 
 Tiene licencia MIT, por lo que podéis hacer lo que queráis con el proyecto. Sería bonito ver que se hacen versiones para otros motores :)
 
