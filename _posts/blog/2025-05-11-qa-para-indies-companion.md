@@ -92,6 +92,7 @@ Si os interesa informaros más sobre QA y testing, os dejo algunos enlaces que o
 - [Charla GDC: test automáticos en Sea of Thieves](https://www.youtube.com/watch?v=X673tOi8pU8)
 - [Recopilación de recursos (charlas, artículos...) sobre testing automático](https://trello.com/b/nGE5yqZk/game-automated-testing-resource-hub)
 - [Github Actions quickstart guide](https://docs.github.com/en/actions/writing-workflows/quickstart)
+- [Game-CI](https://game.ci/) es un repositorio de info y recursos para montar un entorno de CI para varios motores.
 
 ### Contacto
 
