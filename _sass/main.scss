@@ -371,6 +371,7 @@ section div, section img, section iframe {
     }
 
     .card {
+        max-width: inherit !important;
         min-width: 50%;
     }
 
