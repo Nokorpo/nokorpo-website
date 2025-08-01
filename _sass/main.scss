@@ -108,6 +108,29 @@ header {
     color: black;
 }
 
+.index-hero {
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/images/games/michiball/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 60px;
+}
+
+.index-hero > div {
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffdd;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+}
+
 /* cards */
 .card-container {
     margin-top: 50px;
@@ -126,6 +149,7 @@ header {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    max-width: 270px;
 }
 
 .card-header {
