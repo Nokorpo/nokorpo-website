@@ -13,11 +13,20 @@ title: Services
     .card {
         flex: 1 1 calc(33.333% - 20px);
     }
+    .card > div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .card > div > div {
+        flex-grow: 1;
+    }
     .card > div > img {
-        flex-wrap: wrap;
+        flex-grow: 1;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        object-fit: contain;
     }
     .email {
         font-size: 64px
@@ -74,7 +83,7 @@ title: Services
         <h2><a href="#testing-and-qa">Testing and QA</a></h2>
         <div>
             <div>
-                <p>If you have a project that needs testing, we can design a test plan for it or perform manual exploratory or performance testing. But contact us during development and we will advise you on the best practices to ensure quality is maintained during development.</p>
+                <p>We do test plan design or manual exploratory/performance testing. But contact us early in development to give you advice to ensure quality is maintained during development!</p>
             </div>
             <img src="/assets/images/services/testing.png" height="256px" alt="A rabbit with a helmet checking a list of checkboxes"/>
         </div>
