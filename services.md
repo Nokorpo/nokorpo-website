@@ -8,11 +8,13 @@ title: Services
         margin-bottom: 18px;
         display: flex;
         gap: 18px;
+        flex-wrap: wrap;
     }    
-    .column-design {
-        display: flex;
+    .card {
+        flex: 1 1 calc(33.333% - 20px);
     }
     .card > div > img {
+        flex-wrap: wrap;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -49,8 +51,6 @@ title: Services
             <img src="/assets/images/services/godot.png" height="256px" alt="A rabbit and a Godot robot shaking hands"/>
         </div>
     </div>
-</div>
-<div class="services-container">
     <div class="card">
         <h2><a href="#steam">Steam services</a></h2>
         <div>
@@ -79,8 +79,6 @@ title: Services
             <img src="/assets/images/services/testing.png" height="256px" alt="A rabbit with a helmet checking a list of checkboxes"/>
         </div>
     </div>
-</div>
-<div class="services-container">
     <div class="card">
         <h2><a href="#vr-ar">VR and AR</a></h2>
         <div>
@@ -99,8 +97,6 @@ title: Services
             <img src="/assets/images/services/platforms.png" height="256px" alt="A hamster with some consoles and controllers"/>
         </div>
     </div>
-</div>
-<div class="services-container">
     <div class="card">
         <h2><a href="#unity">Unity</a></h2>
         <div>
