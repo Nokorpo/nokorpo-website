@@ -7,6 +7,10 @@ categories: blog
 
 ¡Nokorpo estuvo en Guadalindie! Nepo dió una charla sobre cómo aplicar técnicas de QA para mejorar la calidad de nuestros juegos. Este post tiene las slides y una recopilación de código, ejemplos y enlaces de referencia para ayudarte a empezar con el QA de tu juego.
 
+Si no pudiste ver la charla en persona, aquí tienes el vídeo de la grabación:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nFDMHPCCoEU" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Si necesitas ayuda con QA o automatización en tu equipo, [¡contáctanos!](#contacto)
 
 ![logo de Guadalindie, la feria de juegos indie del sur](/assets/images/posts/qa-para-indies/guadalindie-logo.png){:width="50%" style="display:block; margin-left:auto; margin-right:auto"}
