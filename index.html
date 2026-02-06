@@ -40,7 +40,7 @@ teaser: /assets/images/index/teaser.png
         description="A jam game about planting barley in order to get a lot of beer."
         icon="infinigrass.svg" 
         screenshot="infinigrass.png"
-        github="https://github.com/Nokorpo/infinigrass"
+        codeberg="https://codeberg.org/Nokorpo/infinigrass"
         itchio ="https://antimundo.itch.io/infinigrass">
     </project-card>
     <project-card
@@ -48,7 +48,7 @@ teaser: /assets/images/index/teaser.png
         description="Action jam game about a rat with a sword who is in a hurry for getting rid of their enemies."
         icon="rat-and-furrius.svg" 
         screenshot="ratandfurrius.png"
-        github="https://github.com/Nokorpo/rat-and-furrius"
+        codeberg="https://codeberg.org/Nokorpo/rat-and-furrius"
         itchio ="https://antimundo.itch.io/rat-and-furrius">
     </project-card>
     <project-card
@@ -56,7 +56,7 @@ teaser: /assets/images/index/teaser.png
         description="Web game inspired by the short film, as part of the 'Spain Where Talent Ignites' campaign."
         icon="el-accidente.png"
         screenshot="la-causa-del-accidente-que-provoco-el-incendio.jpg"
-        github="https://github.com/Nokorpo/el-accidente"
+        codeberg="https://codeberg.org/Nokorpo/el-accidente"
         web="#">
     </project-card>
     <project-card
@@ -71,22 +71,22 @@ teaser: /assets/images/index/teaser.png
         description="Web game inspired by the short film 'Hurty', by Jorge Vidal."
         icon="hurty.png"
         screenshot="hurty.jpg"
-        web="#">
+        web="https://hurtyworld.com/play/">
     </project-card>
     <project-card
         name="La Falda de la Montaña"
         description="Arcade jam game about getting to the top of a mountain."
         icon="falda-montana.svg" 
         screenshot="lafaldadelamontana.png"
-        github="https://github.com/Nokorpo/rat-and-furrius"
-        itchio ="https://antimundo.itch.io/rat-and-furrius">
+        codeberg="https://codeberg.org/Nokorpo/falda-montana"
+        itchio ="https://nepo-dev.itch.io/falda-montana">
     </project-card>
     <project-card
         name="LibreAim"
         description="Free and open source FPS aim trainer made with Godot."
         icon="libreaim.svg" 
         screenshot="libreaim.png"
-        github="https://github.com/Nokorpo/LibreAim"
+        codeberg="https://codeberg.org/Nokorpo/LibreAim"
         itchio ="https://antimundo.itch.io/libreaim">
     </project-card>
 </div>
@@ -99,7 +99,7 @@ teaser: /assets/images/index/teaser.png
         description="A simple Control node for Godot to see a Mastodon user timeline."
         icon="mastodon-godot-viewer.svg" 
         screenshot="mastodon-godot-viewer.png"
-        github="https://github.com/Nokorpo/rat-and-furrius">
+        github="https://github.com/Nokorpo/mastodon-viewer-godot">
     </project-card>
     <project-card
         name="GDSnap"
@@ -161,6 +161,7 @@ teaser: /assets/images/index/teaser.png
             // Links
             const cardLinks = document.createElement('div');
             cardLinks.classList.add('card-links');
+            cardLinks.innerHTML += createCardLinks(this, "Codeberg")
             cardLinks.innerHTML += createCardLinks(this, "GitHub")
             cardLinks.innerHTML += createCardLinks(this, "Itchio")
             cardLinks.innerHTML += createCardLinks(this, "Steam")
