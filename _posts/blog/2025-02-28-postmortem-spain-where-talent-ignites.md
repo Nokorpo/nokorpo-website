@@ -92,7 +92,7 @@ El proceso de creación de niveles fue el más iterativo. Una de las dificultade
 
 Hemos propuesto al ICEX liberar este videojuego como software libre, y les ha parecido bien.
 
-Los derechos de la propia campaña de _«Spain Where Talent Ignites»_ y del corto de _«La Causa Del Accidente Que Provocó El Incendio»_ son propiedad intelectual del ICEX, pero [el videojuego está publicado en GitHub bajo licencia MIT](https://github.com/Nokorpo/el-accidente) y es totalmente libre para que puedas estudiar el código y reutilizarlo en otros proyectos.
+Los derechos de la propia campaña de _«Spain Where Talent Ignites»_ y del corto de _«La Causa Del Accidente Que Provocó El Incendio»_ son propiedad intelectual del ICEX, pero [el videojuego está publicado en Codeberg bajo licencia GPLv3](https://codeberg.org/Nokorpo/el-accidente) y es totalmente libre para que puedas estudiar el código y reutilizarlo en otros proyectos.
 
 En Nokorpo creemos en el software libre por muchos motivos. Reduce los costos de desarrollo, fomenta la innovación y permite que los equipos desarrollen proyectos cada vez mejores con menos esfuerzo. Al hacer este juego libre permitimos que otros desarrolladores pueden aportar mejoras al juego, corregir errores, y estudiarlo en el futuro.
 

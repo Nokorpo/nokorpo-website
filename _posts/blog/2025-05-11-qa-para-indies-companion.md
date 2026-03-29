@@ -102,7 +102,7 @@ Si os interesa informaros más sobre QA y testing, os dejo algunos enlaces que o
 
 Y si necesitas ayuda configurando esto para tu equipo, ¡ponte en contacto!
 
-* Email: [contact@nokorpo.com](mailto: contact@nokorpo.com)
-* Mastodon: [@nokorpo@gamedev.lgbt](https://gamedev.lgbt/@nokorpo)
-* Bluesky: [@nokorpo-dev.bsky.social](https://bsky.app/profile/nokorpo-dev.bsky.social)
+* Email: [{{site.data.social-media.email.id}}](mailto: {{site.data.social-media.email.id}})
+* Mastodon: [{{site.data.social-media.mastodon.id}}]({{site.data.social-media.mastodon.href}})
+* Bluesky: [{{site.data.social-media.bluesky.id}}]({{site.data.social-media.bluesky.href}})
 

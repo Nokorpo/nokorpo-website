@@ -21,3 +21,15 @@ discord:
   href: 'https://discord.com/invite/u2Hm8sMagF'
   title: 'Discord'
   icon: 'discord'
+
+codeberg:
+  id: 'codeberg'
+  href: 'https://codeberg.org/Nokorpo'
+  title: 'Codeberg'
+  icon: 'codeberg'
+
+bluesky:
+  id: '@nokorpo-dev.bsky.social'
+  href: 'https://bsky.app/profile/nokorpo-dev.bsky.social'
+  title: 'Bluesky'
+
