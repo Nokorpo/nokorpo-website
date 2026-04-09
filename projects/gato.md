@@ -8,20 +8,21 @@ teaser: /assets/images/games/michiball/store_capsule_main.jpg
 
 **GATO** is a *(yet to be released)* collection of demos, documentation and plugins that aims to make implementing **accessibility** features easier for Godot games. Check it out soon in Github/Codeberg!
 
-<div style="display: flex; width: 100%;">
-    <a href="#" style="width: 0; flex: 1 1 0;" >
+<div style="display: flex; width: 100%; justify-content: center;
+  gap: 30px;">
+    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;" >
         <div class="card">
             <h2>Play the demos</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_play.svg">
         </div>
     </a>
-    <a href="#" style="width: 0; flex: 1 1 0;">
+    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;">
         <div class="card">
             <h2>Browse the plugins</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_plugins.svg">
         </div>
     </a>
-    <a href="#" style="width: 0; flex: 1 1 0;">
+    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;">
         <div class="card">
             <h2>Read the docs</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_docs.svg">
@@ -79,17 +80,19 @@ Follow us on Mastodon [@nokorpo@gamedev.lgbt]({{ site.data.social-media.mastodon
 <br/>
 <br/>
 
-<div class="columns">
+
+
+<div class="columns" style="margin-bottom: 100px;">
     <div>
-        <img style="display: block; margin: auto; width:200px; border-radius: 0;" src="/assets/images/games/gato/logo_agadic.svg">
+        <img style="display: block; width:200px; border-radius: 0; margin: 10px 0 10px 0; position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);" src="/assets/images/games/gato/logo_agadic.svg">
     </div>
     <div>
-        <img style="display: block; margin: auto; width:200px; border-radius: 0;" src="/assets/images/games/gato/logo_iseltec.png">
+        <img style="display: block; width:200px; border-radius: 0; margin: 10px 0 10px 0; position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);" src="/assets/images/games/gato/logo_iseltec.png">
     </div>
     <div>
-        <img style="display: block; margin: auto; width:200px; border-radius: 0;" src="/assets/images/games/gato/logo_nokorpo.svg">
+        <img style="display: block; width:200px; border-radius: 0; margin: 10px 0 10px 0; position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);" src="/assets/images/games/gato/logo_godot.svg">
     </div>
     <div>
-        <img style="display: block; margin: auto; width:200px; border-radius: 0;" src="/assets/images/games/gato/logo_godot.svg">
+        <img style="display: block; width:200px; border-radius: 0; margin: 10px 0 10px 0; position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);" src="/assets/images/games/gato/logo_nokorpo.svg">
     </div>
 </div>
