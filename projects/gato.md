@@ -4,25 +4,26 @@ title: GATO (Godot Accessibility Toolkit)
 teaser: /assets/images/games/michiball/store_capsule_main.jpg
 ---
 
-<img style="display: block; margin: auto;" src="/assets/images/games/gato/banner.svg" alt="Gato logo">
+<div style="width: 100%;display: flex;justify-content: center;align-items: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wcZvJXkqy4o?si=nPjrWnmXcQIMM2iW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 
-**GATO** is a *(yet to be released)* collection of demos, documentation and plugins that aims to make implementing **accessibility** features easier for Godot games. Check it out soon in Github/Codeberg!
+**GATO** is a collection of demos, documentation and plugins that aims to make implementing **accessibility** features easier for Godot games. Check it out in Github!
 
 <div style="display: flex; width: 100%; justify-content: center;
   gap: 30px;">
-    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;" >
+    <a href="https://nokorpo.itch.io/gato-godot-accessibility-toolkit" style="width: 0; flex: 1 1 0; max-width: 270px;" >
         <div class="card">
             <h2>Play the demos</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_play.svg">
         </div>
     </a>
-    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;">
+    <a href="https://store.godotengine.org/publisher/nokorpo/" style="width: 0; flex: 1 1 0; max-width: 270px;">
         <div class="card">
             <h2>Browse the plugins</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_plugins.svg">
         </div>
     </a>
-    <a href="#" style="width: 0; flex: 1 1 0; max-width: 270px;">
+    <a href="https://nokorpo.github.io/gato-godot-accessibility-toolkit/" style="width: 0; flex: 1 1 0; max-width: 270px;">
         <div class="card">
             <h2>Read the docs</h2>
             <img style="display: block; margin: auto; width:200px;" src="/assets/images/games/gato/icon_docs.svg">
