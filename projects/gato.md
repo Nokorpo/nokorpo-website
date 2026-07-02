@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GATO (Godot Accessibility Toolkit)
-teaser: /assets/images/games/michiball/store_capsule_main.jpg
+teaser: /assets/images/games/gato/splash_screen.png
 ---
 
 <div style="width: 100%;display: flex;justify-content: center;align-items: center;">
