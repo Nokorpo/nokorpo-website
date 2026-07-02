@@ -7,7 +7,7 @@ teaser: /assets/images/games/gato/splash_screen.png
 <div style="width: 100%;display: flex;justify-content: center;align-items: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/wcZvJXkqy4o?si=nPjrWnmXcQIMM2iW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 
-**GATO** is a collection of demos, documentation and plugins that aims to make implementing **accessibility** features easier for Godot games. Check it out in Github!
+**GATO** is a collection of demos, documentation and plugins that aims to make implementing **accessibility** features easier for Godot games. [Check it out in Github](https://github.com/nokorpo/gato-godot-accessibility-toolkit/)!
 
 <div style="display: flex; width: 100%; justify-content: center;
   gap: 30px;">
