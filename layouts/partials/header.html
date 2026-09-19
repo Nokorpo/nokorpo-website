@@ -1,0 +1,42 @@
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <a class="site-logo" href="/">
+            <img src="/images/logo.svg" alt="Nokorpo">
+        </a>
+        <nav class="site-nav">
+
+            <a href="/" class="{{ if eq .Section "" }}active{{ end }}">
+                Projects
+            </a>
+
+            <a href="/services/" class="{{ if eq .Section "services" }}active{{ end }}">
+                Services
+            </a>
+
+            <a href="/blog/" class="{{ if eq .Section "blog" }}active{{ end }}">
+                Blog
+            </a>
+
+            <a href="/about/" class="{{ if eq .Section "about" }}active{{ end }}">
+                About us
+            </a>
+
+        </nav>
+
+        <div class="header-socials">
+
+            <a href="https://gamedev.lgbt/@nokorpo" class="social-icon" aria-label="Nokorpo on Mastodon">
+                <img src="/images/social/mastodon.svg" alt="">
+            </a>
+
+            <a href="https://codeberg.org/Nokorpo" class="social-icon" aria-label="Nokorpo on Codeberg">
+                <img src="/images/social/codeberg.svg" alt="">
+            </a>
+
+        </div>
+
+    </div>
+
+</header>

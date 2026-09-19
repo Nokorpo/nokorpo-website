@@ -1,0 +1,25 @@
+<article class="team-card">
+
+    <img
+        src="/images/about-us/{{ .image }}"
+        alt="{{ .name }}"
+        class="team-image"
+    >
+
+    <div class="team-card-content">
+        <h2>{{ .name }}</h2>
+
+        <p class="team-role">
+            {{ .role }}
+        </p>
+
+        <p>
+            {{ .description }}
+        </p>
+
+        {{ with .link }}
+            <a href="{{ . }}">Personal website</a>
+        {{ end }}
+    </div>
+
+</article>

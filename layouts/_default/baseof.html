@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ .Title }} - Nokorpo</title>
+
+    {{ with .Description }}
+        <meta name="description" content="{{ . }}">
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="icon" href="/images/icon.png">
+
+    <meta property="og:title" content="{{ .Title }}">
+    {{ with .Description }}
+        <meta property="og:description" content="{{ . }}">
+    {{ end }}
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+
+    {{ with .Params.teaser }}
+        <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    {{ partial "header.html" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+</body>
+
+</html>

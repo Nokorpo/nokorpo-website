@@ -1,0 +1,17 @@
+- name: 'Alicia «Ali» Redmarr'
+  role: "Designer & Creative Director"
+  description: "Alicia makes the hard design and gameplay decisions, playtests our games, and makes sure they're fun. She also creates the art that makes our games look pretty!"
+  image: "avatar_ali.png"
+  link: " https://aliciaredmarr.github.io/"
+
+- name: "Nepo"
+  role: "Programmer & QA"
+  description: "Nepo focuses on good practices, scalability, and testing. With years of experience in QA, they help keep projects organized, reliable, and running smoothly."
+  image: "avatar_nepo.png"
+  link: "https://nepo.dev"
+
+- name: "Pablo «Antimundo»"
+  role: "Programmer & UX/UI Designer"
+  description: "Antimundo makes sure players understand what's happening and how to play. He is also responsible for making games and controls feel juicy, while keeping projects focused and their scope under control."
+  image: "avatar_anti.png"
+  link: "https://antimundo.es"

@@ -1,0 +1,87 @@
+{{ define "main" }}
+<style>
+    .team-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.team-image {
+    display: block;
+
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+}
+
+.team-card-content {
+    padding: 1rem;
+}
+
+.team-card-content h2 {
+    margin: 0;
+}
+
+.team-role {
+    margin-top: 0.25rem;
+
+    color: var(--muted-color);
+    font-style: italic;
+}
+
+.team-card-content p {
+    line-height: 1.5;
+}
+</style>
+<main class="page about-page">
+
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+
+    <div class="about-intro">
+        <p>
+            We are a team of game developers and open source enthusiasts
+            from Spain. We believe in the potential of open source in game
+            development and want to keep pushing what open source communities
+            can build together!
+        </p>
+
+        <p>
+            We make our own games, and we also help others create theirs.
+            We work fast and with passion, while encouraging good
+            communication and open development ☀️
+        </p>
+
+        <p>
+            Email: <b><a href="mailto:contact@nokorpo.com">contact@nokorpo.com</a></b>
+        </p>
+    </div>
+
+    <h2 class="category-header">Meet the team</h2>
+
+    <div class="team-grid">
+        {{ range site.Data.team }}
+            {{ partial "team-card.html" . }}
+        {{ end }}
+    </div>
+
+</main>
+
+{{ end }}

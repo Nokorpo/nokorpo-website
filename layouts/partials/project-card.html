@@ -1,0 +1,64 @@
+<article class="card">
+
+    <div class="card-header">
+        <h3>{{ .name }}</h3>
+
+        <img
+            src="/images/projects/icons/{{ .icon }}"
+            class="card-icon"
+            width="50"
+            height="50"
+            alt="{{ .name }} icon"
+        >
+    </div>
+
+    <p class="card-grow">
+        {{ .description }}
+    </p>
+
+    <div class="card-links">
+
+        {{ with .codeberg }}
+            <a class="link-pill" href="{{ . }}">
+                <img src="/images/social/codeberg.svg" alt="">
+                Codeberg
+            </a>
+        {{ end }}
+
+        {{ with .github }}
+            <a class="link-pill" href="{{ . }}">
+                <img src="/images/social/github.svg" alt="">
+                GitHub
+            </a>
+        {{ end }}
+
+        {{ with .itchio }}
+            <a class="link-pill" href="{{ . }}">
+                <img src="/images/social/itchio.svg" alt="">
+                Itchio
+            </a>
+        {{ end }}
+
+        {{ with .steam }}
+            <a class="link-pill" href="{{ . }}">
+                <img src="/images/social/steam.svg" alt="">
+                Steam
+            </a>
+        {{ end }}
+
+        {{ with .web }}
+            <a class="link-pill" href="{{ . }}">
+                <img src="/images/social/web.svg" alt="">
+                Web
+            </a>
+        {{ end }}
+
+    </div>
+
+    <img
+        src="/images/projects/{{ .screenshot }}"
+        class="card-screenshot"
+        alt="{{ .name }} screenshot"
+    >
+
+</article>

@@ -1,0 +1,90 @@
+{{ define "main" }}
+<style>
+    .services-grid {
+        max-width: 1000px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .service-card {
+        display: flex;
+        flex-direction: column;
+
+        padding: 1.5rem;
+
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+    }
+
+    .service-card h2 {
+        margin-top: 0;
+    }
+
+    .service-card p {
+        line-height: 1.6;
+    }
+
+    .service-card-image {
+        display: block;
+
+        width: 100%;
+        max-width: 280px;
+        height: 220px;
+
+        object-fit: contain;
+
+        margin: auto auto 0;
+    }
+
+    .services-contact {
+        max-width: 1000px;
+        margin: 4rem auto 0;
+        padding: 0 1rem;
+
+        text-align: center;
+    }
+
+    .services-contact img {
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        margin: 2rem auto 0;
+    }
+</style>
+<main class="page services-page">
+
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ end }}
+    </header>
+
+    <div class="services-grid">
+        {{ range site.Data.services }}
+        {{ partial "service-card.html" . }}
+        {{ end }}
+    </div>
+
+    <section class="services-contact">
+        <h2>💬 Tell us about your project</h2>
+
+        <p>
+            Do you have more questions, need help with your project, or want
+            to know more?
+        </p>
+
+        <p style="font-size: 1.5em; margin-top: 0;">
+            <a href="mailto:contact@nokorpo.com">contact@nokorpo.com</a>
+        </p>
+
+        <img src="/images/services/panas.png" alt="">
+    </section>
+
+</main>
+
+{{ end }}

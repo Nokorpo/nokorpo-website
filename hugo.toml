@@ -1,0 +1,11 @@
+baseURL = 'https://nokorpo.com/'
+languageCode = 'en'
+title = 'Nokorpo'
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,35 @@
+- title: "Godot"
+  description: "Godot is our jam. We can help with pretty much anything your project throws at you: fixing bugs, fixing performance issues, building custom tools, and more!"
+  image: "godot.png"
+
+- title: "Steam services"
+  description: "Getting your game onto Steam can be a bit of a chore. We can handle the integration side of things, including achievements, cloud saves, Steam Deck compatibility, and other Steam features!"
+  image: "steam.png"
+
+- title: "CI environment and automation"
+  description: "We can help you set up a Continuous Integration pipeline so the boring stuff happens automatically and you can spend more time making your game!"
+  image: "servers.png"
+
+- title: "Testing and QA"
+  description: "Nobody likes spending hours checking that everything still works after every change. We can automate that work with tests, performance checks, and analytics, so you can catch problems early and automatically!"
+  image: "testing.png"
+
+- title: "Video game art"
+  description: "Need an extra pair of hands on the art side? 2D Sprites? 3D models and animations? Shaders? UI and UX? You name it we can make it!"
+  image: "art.png"
+
+- title: "Teaching & mentoring"
+  description: "We can help your team get more out of the tools you use. From Godot and Git to game development and workflows, we'll help you build better skills, solve problems, and find better ways to work!"
+  image: "teach.png"
+
+- title: "VR and AR"
+  description: "We can help bring your project to the virtual dimension!"
+  image: "vr.png"
+
+- title: "Unity"
+  description: "Unity is no stranger to us! From mobile games, VR and AR, web games, we've been using Unity for years..."
+  image: "unity.png"
+
+- title: "Porting"
+  description: "We can port your project to a different platform: PC, mobile, web, or console."
+  image: "platforms.png"

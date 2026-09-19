@@ -1,0 +1,108 @@
+{{ define "main" }}
+<style>
+.category-header {
+    max-width: 1000px;
+    height: 120px;
+    margin: 3rem auto 1.5rem;
+    padding: 0 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    background-position: center;
+    background-size: cover;
+    background-color: #efefef;
+
+    color: #222;
+    font-size: 2rem;
+    text-shadow:
+        -2px -2px 0 white,
+         2px -2px 0 white,
+        -2px  2px 0 white,
+         2px  2px 0 white;
+}
+
+.category-games {
+    background:
+        linear-gradient(#ffffffaa, #ffffffaa),
+        url("/images/games-banner.jpg") center / cover;
+}
+
+.category-tools {
+    background:
+        linear-gradient(#ffffffaa, #ffffffaa),
+        url("/images/tools-banner.jpg") center / cover;
+}
+</style>
+<main>
+
+    <section class="index-hero">
+        <div>
+
+            <img
+                src="/images/logo-with-text.svg"
+                height="200"
+                width="auto"
+                alt="Nokorpo"
+            >
+
+            <h2>Open source games and tools!</h2>
+
+            <p>
+                We're a video game studio and Godot consultancy.<br>
+                Do you need a game built or help with your project?<br>
+                <a href="/services">Check out the services we offer!</a>
+            </p>
+
+            <div class="social-links">
+                <a class="link-pill" href="#">
+                    <img src="/images/social/codeberg.svg" alt="">
+                    Codeberg
+                </a>
+
+                <a class="link-pill" href="#">
+                    <img src="/images/social/discord.svg" alt="">
+                    Discord
+                </a>
+
+                <a class="link-pill" href="mailto:">
+                    <img src="/images/social/email.svg" alt="">
+                    Contact
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+
+        <h2 class="category-header category-games">
+            Games
+        </h2>
+
+        <div class="card-container">
+            {{ range site.Data.projects.games }}
+                {{ partial "project-card.html" . }}
+            {{ end }}
+        </div>
+
+
+        <h2 class="category-header category-tools">
+            Tools
+        </h2>
+
+        <div class="card-container">
+            {{ range site.Data.projects.tools }}
+                {{ partial "project-card.html" . }}
+            {{ end }}
+        </div>
+
+    </section>
+
+</main>
+
+{{ end }}
