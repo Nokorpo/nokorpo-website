@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #ff597a;
+    --brand-color-hover: #e84467;
+    --border-color: #ddd;
+    --text-color: #222;
+    --muted-color: #666;
+}
+
+html {
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    margin: 0;
+    margin-bottom: 3em;
+
+    background-image: url("/images/background-decoration.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+main {
+    width: 100%;
+}
+
+a {
+    color: var(--brand-color);
+}
+
+a:hover {
+    color: var(--brand-color-hover);
+}
+
+
+/* Hero */
+
+.index-hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.index-hero > div {
+    max-width: 650px;
+}
+
+.index-hero h2 {
+    margin-top: 1rem;
+}
+
+.index-hero p {
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* Links / buttons */
+
+.link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    padding: 0.35rem 0.65rem;
+
+    color: white;
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 5px;
+
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.link-pill:hover {
+    color: white;
+    background-color: var(--brand-color-hover);
+    border-color: var(--brand-color-hover);
+}
+
+.link-pill img {
+    width: 1rem;
+    height: 1rem;
+
+    filter: brightness(0) invert(1);
+}
+
+
+/* Sections */
+
+.category-header {
+    max-width: 1000px;
+    margin: 3rem auto 1.5rem;
+    padding: 0 1rem;
+}
+
+
+/* Project cards */
+
+.card-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.9rem;
+
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-icon {
+    object-fit: contain;
+}
+
+.card-grow {
+    flex-grow: 1;
+    line-height: 1.5;
+}
+
+.card-links {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+
+    margin: 0.75rem 0;
+}
+
+.card-screenshot {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 4px;
+}
+
+/* Header */
+
+.site-header {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 0.75rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 2rem;
+}
+
+.site-logo {
+    display: block;
+}
+
+.site-logo img {
+    display: block;
+    width: auto;
+    height: 40px;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.site-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.site-nav a.active {
+    color: var(--brand-color);
+}
+
+.site-nav a:hover {
+    color: var(--brand-color);
+}
+
+.header-socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon:hover img {
+    opacity: 0.75;
+}
+
+/* Pages */
+
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    margin: 0 0 0.5rem;
+}
+
+.page-header p {
+    color: var(--muted-color);
+    margin: 0;
+}
+
+.page-content {
+    line-height: 1.6;
+}
+
+.page-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    .header-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem 1.5rem;
+    }
+
+    .site-logo {
+        margin-right: 0;
+    }
+
+    .header-socials {
+        margin-left: 0;
+    }
+
+    .site-nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+    }
+}
